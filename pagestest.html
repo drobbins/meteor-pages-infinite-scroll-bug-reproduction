@@ -1,0 +1,20 @@
+<head>
+  <title>pagestest</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  {{> items}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="items">
+    {{> pagesNav}}
+    {{> pages}}
+</template>
