@@ -1,5 +1,5 @@
 Items = new Meteor.Collection("items");
-Pages = new Meteor.Pagination(Items);
+Pages = new Meteor.Pagination(Items, {infinite: true});
 
 if (Meteor.isClient) {
   // counter starts at 0
